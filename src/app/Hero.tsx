@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { FaLinkedin, FaFileDownload ,FaEnvelope } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -18,12 +19,31 @@ export default function Hero() {
           <p className="text-lg leading-relaxed text-gray-200">
             Développeur Fullstack passionné par <strong>React</strong>, <strong>Next.js</strong> et <strong>Tailwind CSS</strong>. Je conçois des expériences élégantes et performantes.
           </p>
-          <a
-            href="#contact"
-            className="inline-block px-8 py-4 bg-yellow-400 hover:bg-yellow-500 text-black font-semibold text-lg rounded-xl transition duration-300 shadow-lg animate-bounce"
-          >
-            Contactez-moi
-          </a>
+
+        <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-6">
+  <a
+    href="#contact"
+    className="inline-flex items-center gap-2 px-6 py-3 bg-yellow-400 hover:bg-yellow-500 text-black font-semibold rounded-xl transition duration-300 shadow-lg"
+  >
+    <FaEnvelope /> Contactez-moi
+  </a>
+  <a
+    href="https://www.linkedin.com/in/ton-profil"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-6 py-3 border border-yellow-400 hover:bg-yellow-400 text-yellow-400 hover:text-black font-semibold rounded-xl transition duration-300"
+  >
+    <FaLinkedin /> LinkedIn
+  </a>
+  <a
+    href="/cv.pdf"
+    download
+    className="inline-flex items-center gap-2 px-6 py-3 border border-yellow-400 hover:bg-yellow-400 text-yellow-400 hover:text-black font-semibold rounded-xl transition duration-300"
+  >
+    <FaFileDownload /> Mon CV
+  </a>
+</div>
+
         </div>
 
         {/* Image animée */}
@@ -38,7 +58,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Animations CSS directement ici */}
+      {/* Animations CSS */}
       <style jsx>{`
         @keyframes fadeInUp {
           0% {
