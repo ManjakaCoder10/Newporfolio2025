@@ -3,8 +3,10 @@ import React from 'react';
 import Image from 'next/image';
 
 const projects = [
-  { title: 'Portfolio Next.js', img: '/projects/portfolio.png', link: '#' },
-  { title: 'Application Android', img: '/projects/android-app.png', link: '#' },
+  { title: 'Portfolio Next.js', img: '/projet1.png', link: 'https://github.com/ManjakaCoder10/Newporfolio2025' },
+  { title: 'TransfereoApp', img: '/projet3.png', link: 'https://github.com/ManjakaCoder10/Transfereo_APP-web_desktop' },
+   { title: 'Flox Maximal ', img: '/projet2.png', link: '#' },
+    { title: 'Gestion de projet', img: '/pr.png', link: 'https://github.com/ManjakaCoder10/Gestion_project' },
 ];
 
 export default function Projects() {

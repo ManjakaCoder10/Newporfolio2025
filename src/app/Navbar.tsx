@@ -16,7 +16,7 @@ export default function Navbar() {
   const toggleMenu = () => setOpen(!open);
 
   const links = [
-    { name: "Home", href: "#hero", icon: <FaHome /> },
+    { name: "Home", href: "#", icon: <FaHome /> },
     { name: "About", href: "#about", icon: <FaUser /> },
     { name: "Skills", href: "#skills", icon: <FaTools /> },
     { name: "Projects", href: "#projects", icon: <FaProjectDiagram /> },

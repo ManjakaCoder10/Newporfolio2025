@@ -49,7 +49,7 @@ export default function Hero() {
         {/* Image animée */}
         <div className="relative w-80 h-80 rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/10 hover:scale-105 transition-transform duration-300 animate-zoom-in">
           <Image
-            src="/imagehero.jpg"
+            src="/manjaka.jpeg"
             alt="Avatar"
             fill
             className="object-cover"
