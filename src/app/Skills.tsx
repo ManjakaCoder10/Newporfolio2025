@@ -10,7 +10,6 @@ import {
   SiElectron,
   SiBootstrap,
   SiPhp,
-  SiReactrouter,
 } from "react-icons/si";
 
 import { FaJava } from "react-icons/fa";
